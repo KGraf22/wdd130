@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=Verdana&display=swap');
 
 body {
     font-family: Arial, Verdana, sans-serif;
 }
 h2 {
-    font-family
+    font-family: var(--heading-font);
 }
 
 :root {
@@ -13,13 +13,14 @@ h2 {
     --accent1-color: #CBD4C2;
     --accent2-color: #FFFCFF;
     
-    --heading-font: 'Ariel', serif;
-    --paragraph-font: 'Lastone', serif;
+    --heading-font: 'Lastone', serif;
+    --paragraph-font: 'Ariel', san-serif;
 
-    --nav-background-color:light grey
-    --nav-link-color: light blue
-    --nave-hover-link-color:
-    --nav-hover-background-color::after
+    --nav-background-color:lightgrey;
+    --nav-link-color: rgb(8, 43, 55);
+    --nave-hover-link-color:rgb(114, 51, 114);
+    --nav-hover-background-color:rgb(112, 128, 163);
+
 
 }
 body {
@@ -49,11 +50,12 @@ nav a{
     padding: 1rem;
 }
 
-nav a:link, nav a: visited {
+nav a:link, 
+nav a: visited {
     color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color); rgb(43, 22, 43);
+    background-color: var(--nav-hover-background-color);rgb(113, 117, 156);
 }
