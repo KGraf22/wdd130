@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=Verdana&display=swap');
 
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Arial', 'Verdana', sans-serif;
 }
 h2 {
     font-family: var(--heading-font);
@@ -14,7 +14,7 @@ h2 {
     --accent2-color: #FFFCFF;
     
     --heading-font: 'Lastone', serif;
-    --paragraph-font: 'Ariel', san-serif;
+    --paragraph-font: 'Arial', san-serif;
 
     --nav-background-color:rgb(26, 182, 156);
     --nav-link-color: rgb(8, 43, 55);
@@ -29,7 +29,7 @@ body {
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: va(--heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
