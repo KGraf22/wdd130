@@ -10,13 +10,13 @@ h2 {
 :root {
     --primary-color: #50514F;
     --secondary-color: #247BA0;
-    --accent1-color: #CBD4C2;
+    --accent1-color: #41d0e3;
     --accent2-color: #FFFCFF;
     
     --heading-font: 'Lastone', serif;
     --paragraph-font: 'Ariel', san-serif;
 
-    --nav-background-color:lightgrey;
+    --nav-background-color:rgb(26, 182, 156);
     --nav-link-color: rgb(8, 43, 55);
     --nave-hover-link-color:rgb(114, 51, 114);
     --nav-hover-background-color:rgb(112, 128, 163);
@@ -38,9 +38,14 @@ header {
     background-color: var(--accent1-color);
 }
 
+p {
+    padding:25px;
+}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
+    display: flex;
 }
 
 nav a{
@@ -50,8 +55,7 @@ nav a{
     padding: 1rem;
 }
 
-nav a:link, 
-nav a: visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
