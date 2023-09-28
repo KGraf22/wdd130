@@ -35,7 +35,12 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    position: left;
+    position: relative;
+    top: 47px;
+    left: 150px;
+}
+aside h2 {
+    position: absolute;
     top: 47px;
     left: 150px;
 }
