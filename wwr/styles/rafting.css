@@ -16,11 +16,8 @@
 }
 .hero {
     position: relative;
-    text-align: center;
-}
-div h1 {
-    position:absolute;
-    
+    margin-top: 30px;
+    text-align: center; 
 }
 .hero img {
     display: block;
