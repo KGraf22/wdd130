@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+:root {
+    --primary-color: rgba(80, 81, 79, 1);
+    --secondary-color: rgba(203, 212, 194, 1);
+    --accent1-color: rgba(36, 123, 160, 1);
+    --accent2-color: rgba(195, 178, 153, 1);
+     
+    
+    --heading-font: 'Verdana', san-serif;
+    --paragraph-font: 'Arial', san-serif;
+
+    --nav-background-color:rgb(26, 182, 156);
+    --nav-link-color: rgb(8, 43, 55);
+    --nave-hover-link-color:rgb(114, 51, 114);
+    --nav-hover-background-color:rgb(112, 128, 163);
+}
+div hero {
+    position: relative;
+}
+div h1 {
+    position:absolute;
+    
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position:absolute;
+}
+article {
+    position: absolute;
+}
+.article img {
+    float: right;
+
+}
