@@ -14,8 +14,9 @@
     --nave-hover-link-color:rgb(114, 51, 114);
     --nav-hover-background-color:rgb(112, 128, 163);
 }
-div hero {
+.hero {
     position: relative;
+    text-align: center;
 }
 div h1 {
     position:absolute;
@@ -28,9 +29,17 @@ div h1 {
 }
 h1 {
     position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
+
 article {
     position: absolute;
+    margin-top: 20px;
+    text-align: center;
 }
 .article img {
     float: right;
