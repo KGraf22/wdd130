@@ -59,14 +59,25 @@ nav a {
     width: 100%;
     height: auto;
 }
+.hero-text{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0;
+}
 h1 {
     position:absolute;
     top:45%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%);
     font-family: var(--heading-font);
     color: var(--primary-color);
-    font-weight: 900;
+    font-weight: bold;
+    margin: 0;
 }
 .history { 
     position: auto;
