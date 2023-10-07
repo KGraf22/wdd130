@@ -11,7 +11,7 @@
 
     --nav-background-color:rgb(26, 182, 156);
     --nav-link-color: rgb(8, 43, 55);
-    --nave-hover-link-color:rgb(114, 51, 114);
+    --nav-hover-link-color:rgb(114, 51, 114);
     --nav-hover-background-color:rgb(112, 128, 163);
 }
 header {
@@ -117,5 +117,5 @@ footer {
 }
 
 p { 
-    margin: 0;
+    margin-bottom: 20px;
 }
