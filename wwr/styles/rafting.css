@@ -9,17 +9,17 @@
     --heading-font: 'Verdana', san-serif;
     --paragraph-font: 'Arial', san-serif;
 
-    --nav-background-color:rgb(26, 182, 156);
+    --nav-background-color:rgb(172, 189, 186);
     --nav-link-color: rgb(8, 43, 55);
     --nav-hover-link-color:rgb(114, 51, 114);
     --nav-hover-background-color:rgb(112, 128, 163);
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1.5fr;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(231, 229, 229);
     max-width: 1000px;
     margin: 0 auto;
     
@@ -120,21 +120,23 @@ article {
 }
 
 
-/* The Rafting Company Karee Graf is not centered but social links are in the correct position*/
+
 footer {
     text-align: center;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color:rgb(231, 229, 229); 
+    background-color:var(--nav-background-color); 
     padding: 20px; 
     height:2fr;
     
 }
 .footer-box {
+    flex-direction: row;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     background-color: rgb(231, 229, 229);
     padding: 10px;
 }
@@ -142,6 +144,7 @@ footer {
 .footer-content {
     text-align: center;
     align-items: flex-end;
+    
     
 }
 .sociallinks {
