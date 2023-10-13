@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>        
+    <link rel="stylesheet" href="styles/quiz.css">
+        
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="quiz_results.php" method="post">
+        <!-- Question 1 - Text Input -->
+        <label>1. What does HTML stand for?
+            <input type="text" name="q1" id="q1" required>
+        </label>
+        <br>
+        
+        <!-- Question 2 - Textarea -->
+        <label>2. How do you write a comment in CSS?
+            <textarea name="q2" id="q2" rows="4" cols="50" required></textarea>
+        </label>
+        <br>
+        <!--Question 3 Select Dropdown-->
+        <label>3. What does CSS stand for?
+            <select name="q3" id="q3" required>
+                <option value="Cascading Style Sheets">Cascading Style Sheets</option>
+                <option value="Computer Style Sheets">Computer Style Sheets</option>
+                <option value="Creative Style Sheets">Creative Style Sheets</option>
+            </select>
+        </label>
+        <br>
+
+        <!-- Question 4 - Number Input (Integer Answer) -->
+        <label for="q4">4. How many HTML header elements (h1 to h6) are available in HTML?</label>
+        <input type="number" name="q4" id="q5" required>
+
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
