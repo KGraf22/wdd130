@@ -125,7 +125,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color:var(--nav-background-color); 
     padding: 20px; 
     
     
@@ -146,9 +145,10 @@ footer {
     
     
 }
+}
 .sociallinks {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     
 }
 
@@ -166,52 +166,56 @@ p {
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CLzU9upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
     }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CLxU9upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL_U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL-U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL9U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL8U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
-    @font-face {
-    font-family : 'Nunito Sans';
-    font-style : normal;
-    font-weight : 200;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
-    }
+
+#company-info {
+    text-align: center;
+    margin-top: 20px;
+}
     
+.employee-profile {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.employee-profile img {
+    display:block;
+    margin:0 auto;
+}
+.employee-profile p{
+    margin:10px 0;
+}
+
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact-form input[type="radio"],
+#contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#contact-form button [type="submit"] {
+    background-color: #007bff;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
