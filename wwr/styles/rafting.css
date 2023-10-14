@@ -167,9 +167,22 @@ p {
     src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CLzU9upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
     }
 
+#company-info-and-map {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+} 
 #company-info {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
+}
+#google-map {
+    text-align: center;
+}
+#company-infor-and-map h1{
+    text-align: center;
 }
     
 .employee-profile {
