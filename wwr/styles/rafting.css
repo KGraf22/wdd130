@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
 :root {
     --primary-color: rgba(80, 81, 79, 1);
     --secondary-color: rgba(203, 212, 194, 1);
@@ -12,32 +13,70 @@
     --nav-background-color:rgb(172, 189, 186);
     --nav-link-color: rgb(8, 43, 55);
     --nav-hover-link-color:rgb(114, 51, 114);
-    --nav-hover-background-color:rgb(112, 128, 163);
+    --nav-hover-background-color:rgb(228, 230, 233);
 }
-header {
-    display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    justify-content: space-between;
+
+/*header {
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
     border-bottom: 1px solid rgb(231, 229, 229);
-    max-width: 1000px;
-    margin: 0 auto;
+    padding: 10px 0;
     
+}*/
+
+header, footer {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    width: 100%;
+    padding: 10px 0;
 
 }
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.logo-container img {
+    display:flex;
+    max-height: 120px;
+    margin-right: 250px;
+}
+
 .nav-box {
-    background-color: #ccc;
+    position: relative;
+    padding: 3px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 100px;
+    background-color: var(--nav-hover-background-color);
     padding: 5px;
     border-radius: 5px;
 }
+
 nav {
     display:flex;
     align-items:center;
-   
-
 }
-nav a {
+
+nav a, .sociallinks a{
     margin-left: 30px
+}
+
+.header-title {
+    justify-content: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-weight: bold;
+    /*margin: 0;*/
+    margin-bottom: 20px;
+
 }
 .img {
     display: grid;
@@ -94,7 +133,7 @@ header h1 {
 /*White Water Rafting company name on hero image*/
 h1 {
     position:absolute;
-    top:45%;
+    top:25%;
     left:50%;
     transform: translate(-50%);
     font-family: var(--heading-font);
@@ -174,9 +213,15 @@ p {
     align-items: center;
     padding: 150px;
 } 
+.contact-h1 {
+    position: absolute;
+    top:250px;
+    text-align: center;
+} 
 #company-info {
     text-align: center;
     margin: 20px 0;
+    
 }
 #google-map {
     text-align: center;
@@ -288,3 +333,68 @@ p {
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
     }
+
+    .cta-button {
+        background-color: #f00;
+        color:#fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .trip {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .trip img {
+        max-width: 100%;
+    }
+    
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+    }
+    
+   
+ header h1 {
+    position:absolute;
+    text-align: center;
+ }   
+
+ #call-to-action {
+    text-align: center;
+ }
+ .cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ #call-to-action a.cta-button {
+   margin-top:10px;
+ }
+ #call-to-action h2 {
+    margin-top: 100px;
+ }
+ .image-container {
+    text-align: center;
+
+ }
+
+ .image-container img {
+    max-height: 300px;
+    width: auto;
+    display: inline-block;
+    margin: 10px
+ }
