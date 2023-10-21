@@ -398,3 +398,41 @@ p {
     display: inline-block;
     margin: 10px
  }
+ .cta {
+    text-align: center;
+    padding: 20px;
+ }
+ .cta-button-container {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .grid-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+
+ .grid-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    
+ }
+ .grid-item img { 
+    max-width:100%;
+    max-height: 100%;
+    object-fit: cover;
+    height:200px;
+    display:block;
+    margin: 0 auto;
+ }
+ .newsletter, cta {
+    text-align: center;
+    padding: 20px;
+ }
+ .cta h3 {
+    text-align: center;
+ }
+ 
