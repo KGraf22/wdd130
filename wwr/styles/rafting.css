@@ -16,16 +16,6 @@
     --nav-hover-background-color:rgb(228, 230, 233);
 }
 
-/*header {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid rgb(231, 229, 229);
-    padding: 10px 0;
-    
-}*/
-
 header, footer {
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
@@ -74,7 +64,6 @@ nav a, .sociallinks a{
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-weight: bold;
-    /*margin: 0;*/
     margin-bottom: 20px;
 
 }
@@ -157,7 +146,7 @@ article {
     margin-top: 20px;
 
 }
-
+/*Footer Styles*/
 footer {
     display: flex;
     flex-direction: column;
@@ -176,17 +165,12 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /*background-color: rgb(231, 229, 229);*/
     padding: 10px;
 }
 
 .footer-content {
     text-align: center;
     color: black;
-
-    /*align-items: flex-end;*/
-    
-    
 }
 
 .sociallinks {
@@ -216,7 +200,7 @@ p {
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CLzU9upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
     }
-
+/*Contact page Styles*/
 #company-info-and-map {
     text-align: center;
     display: flex;
@@ -344,7 +328,7 @@ p {
     font-display : swap;
     src : url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GVilntA.ttf) format('truetype');
     }
-
+/*Call to action button*/
     .cta-button {
         background-color: #f00;
         color:#fff;
@@ -354,7 +338,7 @@ p {
         border-radius: 5px;
         font-weight: bold;
     }
-
+/*Trip page styles */
     .trip {
         border: 1px solid #ccc;
         padding: 10px;
