@@ -158,14 +158,15 @@ article {
 
 }
 
-
-
 footer {
-    text-align: center;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px; 
+    position: relative;
     
     
 }
@@ -175,23 +176,32 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(231, 229, 229);
+    /*background-color: rgb(231, 229, 229);*/
     padding: 10px;
 }
 
 .footer-content {
     text-align: center;
-    align-items: flex-end;
+    color: black;
+
+    /*align-items: flex-end;*/
     
     
 }
 
 .sociallinks {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
     
 }
 
+.sociallinks a img {
+    max-width: 22px;
+}
 footer .sociallinks {
     justify-content: flex-end;
 }
