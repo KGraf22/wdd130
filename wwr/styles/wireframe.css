@@ -1,0 +1,103 @@
+/* Reset some styling */
+header, footer {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Simplified Header and Navigation Styling */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex;
+    max-height: 120px;
+    margin-right: 250px;
+}
+
+.nav-box {
+    position: relative;
+    padding: 3px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 100px;
+    background-color: var(--nav-hover-background-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a, .sociallinks a {
+    margin-left: 30px;
+}
+
+/* Simplified Main Content Styling */
+
+.trip {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.trip img {
+    max-width: 100%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    position: relative;
+    
+    
+}
+.footer-box {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.sociallinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+.sociallinks a img {
+    max-width: 22px;
+}
+footer .sociallinks {
+    justify-content: flex-end;
+}
