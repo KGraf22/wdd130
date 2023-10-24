@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+
+:root {
+    --primary-color: rgba(80, 81, 79, 1);
+    --secondary-color: rgba(203, 212, 194, 1);
+    --accent1-color: rgba(36, 123, 160, 1);
+    --accent2-color: rgba(195, 178, 153, 1);
+     
+    
+    --heading-font: 'Verdana', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color:rgb(26, 182, 156);
+    --nav-link-color: rgb(8, 43, 55);
+    --nave-hover-link-color:rgb(114, 51, 114);
+    --nav-hover-background-color:rgb(112, 128, 163);
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header { 
+    padding:20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding:25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color); 
+    background-color: var(--nav-hover-background-color);
+}
