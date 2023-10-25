@@ -339,11 +339,22 @@ p {
     }
 /*Trip page styles */
     .trip {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
         border: 1px solid #ccc;
         padding: 10px;
         margin-bottom: 10px;
+        align-items: center;
     }
-    
+    .trip-text, .trip-image, .trip-explanation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .trip img {
         max-width: 100%;
     }
